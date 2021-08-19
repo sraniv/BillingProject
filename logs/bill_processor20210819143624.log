@@ -1,0 +1,26 @@
+2021-08-19 14:36:24,072 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - INFO - This is the logger object
+2021-08-19 14:36:24,073 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - INFO - Process following files:['20210819143605.json', '20210819143607.json', '20210819143609.json', '20210819143611.json', '20210819143613.json', '20210819143615.json', '20210819143617.json', '20210819143619.json', '20210819143621.json', '20210819143623.json']
+2021-08-19 14:36:24,077 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - INFO - {'bill_id': '20210819143605', 'store_id': 4, 'bill_date': '2015-06-23', 'bill_details': {'25': 8, '18': 13, '10': 5, '28': 10}}
+2021-08-19 14:36:24,103 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - ERROR - 28:Product is not in (1, 25) range
+2021-08-19 14:36:24,105 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - INFO - {'bill_id': '20210819143607', 'store_id': 1, 'bill_date': '2014-07-11', 'bill_details': {'1': 9, '24': 16, '17': 7, '6': 14, '7': 1, '22': 11, '28': 11, '26': 3, '2': 20, '13': 1, '14': 15}}
+2021-08-19 14:36:24,134 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - ERROR - 28:Product is not in (1, 25) range
+2021-08-19 14:36:24,136 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - INFO - {'bill_id': '20210819143609', 'store_id': 2, 'bill_date': '2019-01-20', 'bill_details': {'6': 13}}
+2021-08-19 14:36:24,141 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - INFO - Writing to csv file:<_io.TextIOWrapper name='C:/Users/rvish/sudha/BillingSystem/csvfiles/bill_data20210819143624.csv' mode='w' encoding='cp1252'>
+2021-08-19 14:36:24,141 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - INFO - {'bill_id': '20210819143609', 'store_id': 2, 'bill_date': '2019-01-20', 'bill_total': Decimal('42.25')}
+2021-08-19 14:36:24,141 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - INFO - {'6': {'prod_id': '6', 'qty': 13, 'line_total': Decimal('42.25')}}
+2021-08-19 14:36:24,145 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - INFO - Writing to csv file:<_io.TextIOWrapper name='C:/Users/rvish/sudha/BillingSystem/csvfiles/bill_details20210819143624.csv' mode='a' encoding='cp1252'>
+2021-08-19 14:36:24,148 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - INFO - {'bill_id': '20210819143611', 'store_id': 5, 'bill_date': '2007-12-05', 'bill_details': {'5': 8, '4': 13, '3': 11, '6': 20, '9': 12, '27': 12, '20': 16, '29': 19, '14': 2, '7': 20}}
+2021-08-19 14:36:24,148 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - ERROR - 5:Store Id is not in (1, 4) range
+2021-08-19 14:36:24,150 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - INFO - {'bill_id': '20210819143613', 'store_id': 3, 'bill_date': '2010-01-09', 'bill_details': {'2': 2}}
+2021-08-19 14:36:24,154 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - INFO - {'bill_id': '20210819143613', 'store_id': 3, 'bill_date': '2010-01-09', 'bill_total': Decimal('5.00')}
+2021-08-19 14:36:24,155 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - INFO - {'2': {'prod_id': '2', 'qty': 2, 'line_total': Decimal('5.00')}}
+2021-08-19 14:36:24,157 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - INFO - {'bill_id': '20210819143615', 'store_id': 3, 'bill_date': '2008-11-16', 'bill_details': {'8': 7, '13': 14, '11': 18, '1': 6, '30': 18, '29': 20, '7': 4, '18': 10, '3': 3, '24': 5, '5': 15, '17': 3, '19': 10, '12': 17, '21': 8, '4': 6, '10': 15}}
+2021-08-19 14:36:24,160 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - ERROR - 30:Product is not in (1, 25) range
+2021-08-19 14:36:24,162 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - INFO - {'bill_id': '20210819143617', 'store_id': 3, 'bill_date': '2010-10-23', 'bill_details': {'17': 15, '27': 6, '25': 2, '24': 5, '5': 17, '15': 17, '6': 11, '19': 10, '7': 5, '21': 3}}
+2021-08-19 14:36:24,166 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - ERROR - 27:Product is not in (1, 25) range
+2021-08-19 14:36:24,168 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - INFO - {'bill_id': '20210819143619', 'store_id': 2, 'bill_date': '2013-11-09', 'bill_details': {'18': 1, '28': 10, '13': 19, '6': 5, '21': 18, '25': 8, '30': 14, '19': 5, '7': 4}}
+2021-08-19 14:36:24,197 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - ERROR - 28:Product is not in (1, 25) range
+2021-08-19 14:36:24,198 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - INFO - {'bill_id': '20210819143621', 'store_id': 3, 'bill_date': '2012-07-21', 'bill_details': {'20': 5, '14': 3, '6': 1, '18': 1, '4': 11, '26': 2, '5': 6, '22': 1, '24': 18, '0': 1, '8': 18, '27': 4, '15': 9, '12': 4, '3': 7, '30': 16, '16': 8}}
+2021-08-19 14:36:24,203 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - ERROR - 26:Product is not in (1, 25) range
+2021-08-19 14:36:24,205 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - INFO - {'bill_id': '20210819143623', 'store_id': 4, 'bill_date': '2015-07-09', 'bill_details': {'30': 7, '12': 3, '21': 6, '9': 3, '19': 20, '18': 4, '5': 18, '14': 16, '15': 15, '29': 11, '10': 13, '8': 15, '4': 11, '11': 15, '24': 3, '3': 9}}
+2021-08-19 14:36:24,208 - C:/Users/rvish/sudha/BillingSystem/logs/bill_processor - ERROR - 30:Product is not in (1, 25) range
